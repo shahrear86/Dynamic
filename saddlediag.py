@@ -3,7 +3,8 @@
 Created on Fri Apr  6 13:49:49 2018
 
 @author: shahrear
-reference book:
+student.eco86@gmail.com
+reference books:
 1.Economic Dynamics
 Phase Diagrams and Their Economic Application
 Second Edition

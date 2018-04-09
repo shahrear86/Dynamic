@@ -3,17 +3,14 @@
 Created on Mon Apr  9 15:20:11 2018
 
 @author: shahrear
+student.eco86@gmail.com
 reference book:
 1.Economic Dynamics
 4th Edition
 2010
 by 
 Giancarlo Gandolfo
-
-
-Chapter-4: Systems of first-order differential equations
-Page-171
-Example 4.13
+page-379
 
 2.User's Guide
 NumPy User Guide

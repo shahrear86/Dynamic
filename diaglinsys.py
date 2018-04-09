@@ -28,11 +28,12 @@ October 07, 2017
 import numpy as np
 import matplotlib.pyplot as plt
 X, Y = np.meshgrid(np.arange(-20, 20, 1), np.arange(-10, 10, 1))
+#X, Y = np.meshgrid(np.arange(-10, 10, 1), np.arange(-5, 5, 1))
 omega=0.8
 beta=1
 Xdot=Y
 Ydot=-(omega**2)*X-2*beta*Y
 plt.figure()
-plt.title('Phase Diagram: Linear System')
+plt.title('Phase & Directional Diagram: Linear System')
 Q=plt.quiver(X,Y,Xdot,Ydot,units='width')
 plt.show()

@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Apr  9 16:32:28 2018
+
+@author: shahrear
+ref: https://matplotlib.org/examples/mplot3d/lorenz_attractor.html
+"""
+import numpy as np 
+import matplotlib.pyplot as plt
+import mpl_toolkits.mplot3d import Axes3D
+
+
+def linsys(x,y,omega=1,beta=1)
+    x_dot = y
+    y_dot = -(omega**2)*x - 2*beta*y
+    return x_dot,y_dot
+    
+dt = 1
+n  = 1000000
+
+x = np.empty((n+1,))
+y = np.empty((n+1,))
+x[0],y[0] = (1,1)
+
+for i in range(n):
+    x_dot,y_dot=linsys(x[i],x[i])
+    x[i+1] = x[i] + (x_dot*dt)
+    y[i+1] = y[i] + (y_dot*dt)
+    ..................conti
+    
+    
+
+
+
+
+    
+    
+     

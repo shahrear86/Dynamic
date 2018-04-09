@@ -4,7 +4,7 @@ Created on Mon Apr  9 15:20:11 2018
 
 @author: shahrear
 student.eco86@gmail.com
-reference book:
+reference books:
 1.Economic Dynamics
 4th Edition
 2010

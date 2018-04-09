@@ -36,7 +36,7 @@ X, Y = np.meshgrid(np.arange(-10, 10, 1), np.arange(-10, 10, 1))
 Xdot=X+Y
 Ydot=4*X+Y
 plt.figure()
-plt.title('Phase Diagram:Saddle Path')
+plt.title('Phase Diagram & Directional: Saddle Path')
 Q=plt.quiver(X,Y,Xdot,Ydot,units='width')
 plt.show()
 

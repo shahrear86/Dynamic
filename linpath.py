@@ -3,7 +3,14 @@
 Created on Fri Apr 13 11:44:32 2018
 
 @author: shahrear
-ref: https://matplotlib.org/examples/mplot3d/lorenz_attractor.html
+student.eco86@gmail.com
+Reference Book:
+Economic Dynamics
+4th Edition
+2010
+by 
+Giancarlo Gandolfo
+Ref Link: https://matplotlib.org/examples/mplot3d/lorenz_attractor.html
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -43,6 +50,6 @@ ax.plot(x, y, z, lw=2.5)
 ax.set_xlabel("X Axis")
 ax.set_ylabel("Y Axis")
 ax.set_zlabel("Z Axis")
-ax.set_title("")
+ax.set_title("Phase Diagram")
 
 plt.show()

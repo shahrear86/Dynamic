@@ -27,7 +27,6 @@ def linline(x, y, z, s=1, r=1):
 dt = 0.01
 n = 10000
 
-# Need one more for the initial values
 x = np.empty((n + 1,))
 y = np.empty((n + 1,))
 z = np.empty((n + 1,))
@@ -37,7 +36,6 @@ x[0], y[0], z[0] = (0, 1., 0)
 
 # Stepping through "time".
 for i in range(n):
-    # Derivatives of the X, Y, Z state
     x_dot, y_dot, z_dot = linline(x[i], y[i], z[i])
     x[i + 1] = x[i] + (x_dot * dt)
     y[i + 1] = y[i] + (y_dot * dt)

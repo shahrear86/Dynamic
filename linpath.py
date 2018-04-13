@@ -16,8 +16,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-
-def linline(x, y, z, s=1, r=1):
+# s=1,r=1
+def linline(x, y, z, s=0.1, r=0.01):
     x_dot =  y
     y_dot = -(s**2)*x - 2*r*y 
     z_dot = 0

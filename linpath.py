@@ -18,9 +18,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-# s=1,r=1
-#z_dot = x*y
-#z_dot = -0.5*z
+
 def linline(x, y, z, s=0.1, r=0.01):
     x_dot =  y
     y_dot = -(s**2)*x - 2*r*y 
@@ -56,3 +54,35 @@ ax.set_zlabel("Z Axis")
 ax.set_title("Phase Diagram")
 
 plt.show()
+
+# s=1,r=1
+#z_dot = x*y
+#z_dot = -0.5*z
+
+#   x_dot =  y
+#   y_dot = -(s**2)*x - 2*r*y 
+#   z_dot = y
+
+#    x_dot =  y + z
+#    y_dot = -(s**2)*x - 2*r*y 
+#    z_dot = y
+
+#   x_dot =  y + z
+#   y_dot = -(s**2)*x - 2*r*y +z
+#   z_dot = y
+
+
+#   s=10, r=1
+#
+
+#    s=1, r=1
+#    x[0], y[0], z[0] = (0, 1., 0)
+#    x_dot =  z
+#    y_dot = -(s**2)*x - 2*r*y 
+#    z_dot = y 
+
+#   s=1, r=1
+#   x[0], y[0], z[0] = (0, 1., 0)
+#   x_dot =  z
+#   y_dot = -(s**2)*x - 2*r*y + z
+#   z_dot = y

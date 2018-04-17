@@ -11,7 +11,6 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 
-#def lineup(x, y, z, s=1, r=1):
 def lineup(x, y, z, a=10,b=1,c=10,d=1,e=3,f=2,g=3):    
     x_dot = a + b*x 
     y_dot = c + d*x + e*y 

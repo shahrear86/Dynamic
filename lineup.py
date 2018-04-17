@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 13 11:44:32 2018
+Created on Mon Apr 16 20:57:37 2018
 
 @author: shahrear
+student.eco86@gmail.com
 ref: https://matplotlib.org/examples/mplot3d/lorenz_attractor.html
 """
 import numpy as np
@@ -10,10 +11,11 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 
-def lineup(x, y, z, s=1, r=1):
-    x_dot = 10 + x 
-    y_dot = 10 + x + 3*y 
-    z_dot = 2*y**2 + 3*x**2
+#def lineup(x, y, z, s=1, r=1):
+def lineup(x, y, z, a=10,b=1,c=10,d=1,e=3,f=2,g=3):    
+    x_dot = a + b*x 
+    y_dot = c + d*x + e*y 
+    z_dot = f*y**2 + g*x**2
     return x_dot, y_dot, z_dot
 
 
@@ -46,7 +48,5 @@ ax.set_zlabel("Z Axis")
 ax.set_title("")
 
 plt.show()
-
-
 
 

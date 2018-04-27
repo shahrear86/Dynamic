@@ -6,7 +6,7 @@
 %       by Rudiger Dornbusch
 %       Stanley Fischer
 %       Chapter - 3. Income and Spending
-%2.     User Manuel, Octave 
+%2.     User Manual, Octave 
  
 %26.04.2018
 clear all

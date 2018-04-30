@@ -11,7 +11,7 @@
 %29.04.2018
 clear all
 %The Open Economy IS-LM Model
-TR_BAR= 10  %Transfer Payments                                                    10;10;10;10
+TR_BAR= 10  %Transfer Payments                                                    10;10;10;10  %Check the combinations
 I_BAR = 5   %Constant Planned Investment                                          5;1;5;1
 G_BAR = 2   %Government Expenditure                                               2;2;2;2
 G_BAR1= 6   %Government Expenditure                                               9;9;6;3

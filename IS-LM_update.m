@@ -50,12 +50,12 @@ Y11   =(c*TR_BAR + I_BAR - b*i + G_BAR1 + X_bar +v*R)/(1-c+m);
 Y2    =(1/k)*((M_bar/P_bar)+h*i);
 *********************************************
 %equilbrium level of the Income
-Y_eq=alfa_g*(c*TR_BAR + I_BAR + G_BAR - b*(1/h)*(k*Y-(M_bar/P_bar)))     % equilibrium level of the Income without changing the government expenditure
-Y_eq_new=alfa_g*(c*TR_BAR + I_BAR + G_BAR1 - b*(1/h)*(k*Y-(M_bar/P_bar)))% equilibrium level of the Income by changing the government expenditure
+%Y_eq=alfa_g*(c*TR_BAR + I_BAR + G_BAR - b*(1/h)*(k*Y-(M_bar/P_bar)))     % equilibrium level of the Income without changing the government expenditure
+%Y_eq_new=alfa_g*(c*TR_BAR + I_BAR + G_BAR1 - b*(1/h)*(k*Y-(M_bar/P_bar)))% equilibrium level of the Income by changing the government expenditure
 
 *********************************************
 %eqilibrium real exchange rate:
-R_eq = ((s+m)/k*v)*(M_bar/P_bar)) + [(s+m)*h+k*b]*i/k*v;
+%R_eq = ((s+m)/k*v)*(M_bar/P_bar)) + [(s+m)*h+k*b]*i/k*v;
 %A fiscal expansion or a rise to M_bar leads to real appriciation, while a monetary expansion leads to real depriciation
 *********************************************
 L1=k*Y1 - h*i;%h > 0

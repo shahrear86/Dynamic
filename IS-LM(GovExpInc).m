@@ -44,7 +44,7 @@ Y11   =(c*TR_BAR + I_BAR - b*i + G_BAR1 + X_bar +v*R)/(1-c+m);
 %LM:
 Y2    =(1/k)*((M_bar/P_bar)+h*i);
 *********************************************
-plot(i,Y1,'b',i,Y2,'r',i,Y11,'b')
+plot(Y1,i,'b',Y2,i,'r',Y11,i,'b')
 xlabel ("Income(Y),Output");
 ylabel ("Interest rate");
 title ("Increase of the Government Expenditure in the IS-LM Model");

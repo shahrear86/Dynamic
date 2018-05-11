@@ -45,8 +45,8 @@ k     =0.08 % Responsiveness of the demand for money to the Income
 %in interest rates required to maintain money market equilibrium 
 h     =0.8
 %IS:
-Y1    =(c*TR_BAR + I_BAR - b*i + G_BAR  + X_bar +v*R)/(1-c+m);
-Y11   =(c*TR_BAR + I_BAR - b*i + G_BAR1 + X_bar +v*R)/(1-c+m);
+Y1    =(c*TR_BAR + I_BAR - b*i + G_BAR  + X_bar +v*R)/(1-c*(1-t)+m);
+Y11   =(c*TR_BAR + I_BAR - b*i + G_BAR1 + X_bar +v*R)/(1-c*(1-t)+m);
 %LM:
 Y2    =(1/k)*((M_bar/P_bar)+h*i);
 *********************************************

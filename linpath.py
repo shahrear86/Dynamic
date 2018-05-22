@@ -4,6 +4,7 @@ Created on Fri Apr 13 11:44:32 2018
 
 @author: shahrear
 student.eco86@gmail.com
+© Md. Shahrear Zaman
 Reference Book:
 Economic Dynamics
 4th Edition

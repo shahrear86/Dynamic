@@ -1,5 +1,6 @@
 %created by: shahrear
 %student.eco86@gmail.com
+% © Md. Shahrear Zaman
 %January2018
 %UP
 %reference: https://www.gnu.org/software/octave/octave.pdf

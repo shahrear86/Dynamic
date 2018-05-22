@@ -1,5 +1,6 @@
 %created by: shahrear
 %student.eco86@gmail.com
+% © Md. Shahrear Zaman
 %References: 
 %1.     Macro Economics
 %       sixth Edition
